@@ -5,7 +5,7 @@ use Data::Dumper;
 use Getopt::Long;
 use FindBin;
 #use lib "$FindBin::Bin/bioperl-1.2.3";
-use lib "$FindBin::Bin/lib/modules";
+use lib "$FindBin::Bin/libs/ensembl/modules";
 use Bio::EnsEMBL::Registry;
 
 my @symbols;
